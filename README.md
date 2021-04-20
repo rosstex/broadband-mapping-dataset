@@ -35,7 +35,7 @@ This repo contains the analysis code for No WAN's Land, at IMC '20.
 - **FCC Stack Block Population Estimates** - us2019.csv - [Data](https://www.fcc.gov/file/19314/download), [Info](https://www.fcc.gov/staff-block-estimates)
 - **Census Block Urban/Rural Data (Shapefiles)** - block\_class\_{**STATE**}\_tl\_2019\_{**FIPS CODE**}\_tabblock10.shp - [Data/Info](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
     - See: [state FIPS codes](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/?cid=nrcs143_013696)
-- **ACS Demographic Data** - _NOTE: Use 5-year estimates._
+- **ACS Demographic Data** - _NOTE: Use transposed, 5-year estimates._
     - **Race** - ACS/ACSDT5Y2018.B03002_data_with_overlays_2020-12-21T003055.csv - [Data](https://data.census.gov/cedsci/table?q=ACSDT1Y2019.B03002&tid=ACSDT1Y2019.B03002&hidePreview=true), [Info](https://api.census.gov/data/2017/acs/acs1/groups/B03002.html)
     - **Poverty** - ACS/ACSST5Y2018.S1701_data_with_overlays_2020-12-21T002937.csv - [Data](https://data.census.gov/cedsci/table?q=ACSST1Y2019.S1701&tid=ACSST1Y2019.S1701&hidePreview=true), [Info](https://api.census.gov/data/2019/acs/acs1/subject/groups/S1701.html)
 
