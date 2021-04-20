@@ -23,7 +23,7 @@ This repo contains the analysis code for No WAN's Land, at IMC '20.
 | addr\_unit_type | Address type (filtered to residential only). |  |
 | addr\_unit\_id | Address type ID. |  |
 | addr\_full | Concatenated address: "line1 + city + state + zip". |  |
-| fcc\_coverage\_{**ISP**}(\_{**TECH CODE**}) | FCC Form 477 coverage of the address by {**ISP**} with technology {**TECH CODE**} (if exists). | 0 = Covered, 1 = Not Covered.  Also, see [FCC **TECH CODE**s](https://www.fcc.gov/general/technology-codes-used-fixed-broadband-deployment-data). |
+| fcc\_coverage\_{**ISP**}(\_{**TECH CODE**}) | FCC Form 477 coverage of the address by {**ISP**} with technology {**TECH CODE**} (if exists). | 0 = Covered, 1 = Not Covered.  Also, see [FCC tech codes](https://www.fcc.gov/general/technology-codes-used-fixed-broadband-deployment-data). |
 | fcc\_coverage\_downspeed\_{**ISP**}(\_{**TECH CODE**}) |  Minimum download speed of the address' census block according to Form 477 by {**ISP**} with technology {**TECH CODE**} (if exists). |  |
 | fcc\_coverage\_upspeed\_{**ISP**}(\_{**TECH CODE**}) | Minimum upload speed of the address' census block according to Form 477 by {**ISP**} with technology {**TECH CODE**} (if exists). |  |
 | tool\_coverage\_{**ISP**}(\_{**TECH CODE**}) | BAT coverage of the address by {**ISP**} with technology {**TECH CODE**} (if exists). | See analysis.ipynb for the mapping from values to coverage outcomes. |
