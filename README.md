@@ -2,6 +2,8 @@
 
 This repo contains the analysis code for No WAN's Land, at IMC '20.
 
+To access the full dataset, TODO (ask Ross)
+
 ## [Paper](https://dl.acm.org/doi/abs/10.1145/3419394.3423652)
 
 ## Main Files
