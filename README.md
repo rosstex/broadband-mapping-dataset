@@ -2,7 +2,7 @@
 
 This repo contains the analysis code for No WAN's Land, at IMC '20.
 
-To access the full dataset, TODO (ask Ross)
+You can access the full dataset on [Google Drive](https://drive.google.com/drive/u/3/folders/12mTemnw0QdEr4EGQpImCkmTHVb36IqSL)
 
 ## [Paper](https://dl.acm.org/doi/abs/10.1145/3419394.3423652)
 
@@ -35,7 +35,7 @@ To access the full dataset, TODO (ask Ross)
 
 ## Required Files
 - **FCC Stack Block Population Estimates** - us2019.csv - [Data](https://www.fcc.gov/file/19314/download), [Info](https://www.fcc.gov/staff-block-estimates)
-- **Census Block Urban/Rural Data (Shapefiles)** - block\_class\_{**STATE**}\_tl\_2019\_{**FIPS CODE**}\_tabblock10.shp - [Data/Info](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
+- **Census Block Urban/Rural Data (Shapefiles)** - block_class/{**STATE**}/tl\_2019\_{**FIPS_CODE**}\_tabblock10.shp - [Data/Info](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html)
     - See: [state FIPS codes](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/?cid=nrcs143_013696)
 - **ACS Demographic Data** - _NOTE: Use transposed, 5-year estimates._
     - **Race** - ACS/ACSDT5Y2018.B03002_data_with_overlays_2020-12-21T003055.csv - [Data](https://data.census.gov/cedsci/table?q=ACSDT1Y2019.B03002&tid=ACSDT1Y2019.B03002&hidePreview=true), [Info](https://api.census.gov/data/2017/acs/acs1/groups/B03002.html)
