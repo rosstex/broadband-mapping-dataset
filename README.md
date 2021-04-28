@@ -47,6 +47,6 @@ You can access the full dataset on [Google Drive](https://drive.google.com/drive
 - **FCC Form 477 Data** - fbd_us_without_satellite_jun2018_v1.csv - [Data](http://transition.fcc.gov/form477/BroadbandData/Fixed/Jun18/Version%201/US-Fixed-without-Satellite-Jun2018.zip), [Info](https://www.fcc.gov/general/broadband-deployment-data-fcc-form-477)
     - This was the latest data available at the time of the paper.
 
-- **Border addresses** - Some addresses on the border between two states are included even if the state is not in our dataset. (For example, there are 5 addresses from WV included in our VA dataset.) Since none of the addresses have Form 477 coverage in our dataset, they are effectively excluded from the analysis.
 ## Known Issues
+- **Border addresses** - Some addresses on the border between two states are included even if the state is not in our dataset. (For example, there are 5 addresses from WV included in our VA dataset.) Since none of the addresses have Form 477 coverage in our dataset, they are effectively excluded from the analysis.
 - **Duplicate addresses** - The National Address Database contains duplicates of street names. For example, analysis.ipynb contains an example of an address that appears a whopping 62 times in our dataset! We did not filter out these cases from our dataset.
