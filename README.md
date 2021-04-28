@@ -1,6 +1,6 @@
 # Broadband Mapping Analysis
 
-This repo contains the analysis code for No WAN's Land, at IMC '20.
+This repo contains the code for No WAN's Land, at IMC '20.
 
 You can access the full dataset on [Google Drive](https://drive.google.com/drive/u/3/folders/12mTemnw0QdEr4EGQpImCkmTHVb36IqSL)
 
