@@ -32,8 +32,8 @@ You can access the full dataset on [Google Drive](https://drive.google.com/drive
 | tool\_coverage\_downspeed\_{**ISP**}(\_{**TECH CODE**}) | Minimum download speed of the address according to {**ISP**}'s BAT with technology {**TECH CODE**} (if exists). |  |
 | tool\_coverage\_upspeed\_{**ISP**}(\_{**TECH CODE**}) | Minimum upload speed of the address according to {**ISP**}'s BAT with technology {**TECH CODE**} (if exists). |  |
 | fcc\_coverage\_LOCAL | FCC Form 477 coverage of the address by ANY local **ISP** (as defined in paper). |  |
-| addr_dpv | Delivery Point Validation. Whether the USPS recognizes an address as a valid delivery point. | Queried using [SmartyStreets](https://smartystreets.com/). | |
-| addr_rdi | Residential Delivery Indicator. Whether the USPS classifies an address as residential for billing purposes. | |
+| addr_dpv | [Delivery Point Validation](https://postalpro.usps.com/address-quality/dpv). Whether the USPS recognizes an address as a valid delivery point. | Queried using [SmartyStreets](https://smartystreets.com/). | |
+| addr_rdi | [Residential Delivery Indicator](https://qusps.usps.com/nationalpremieraccounts/rdi.htm). Whether the USPS classifies an address as residential for billing purposes. | |
 
 ## Required Files
 - **FCC Stack Block Population Estimates** - us2019.csv - [Data](https://www.fcc.gov/file/19314/download), [Info](https://www.fcc.gov/staff-block-estimates)
