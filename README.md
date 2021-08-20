@@ -28,7 +28,7 @@ You can access the full dataset on [Google Drive](https://drive.google.com/drive
 | fcc\_coverage\_{**ISP**}(\_{**TECH CODE**}) | FCC Form 477 coverage of the address by {**ISP**} with technology {**TECH CODE**} (if exists). | 0 = Covered, 1 = Not Covered.  Also, see [FCC tech codes](https://www.fcc.gov/general/technology-codes-used-fixed-broadband-deployment-data). |
 | fcc\_coverage\_downspeed\_{**ISP**}(\_{**TECH CODE**}) |  Minimum download speed of the address' census block according to Form 477 by {**ISP**} with technology {**TECH CODE**} (if exists). |  |
 | fcc\_coverage\_upspeed\_{**ISP**}(\_{**TECH CODE**}) | Minimum upload speed of the address' census block according to Form 477 by {**ISP**} with technology {**TECH CODE**} (if exists). |  |
-| tool\_coverage\_{**ISP**}(\_{**TECH CODE**}) | BAT coverage of the address by {**ISP**} with technology {**TECH CODE**} (if exists). | See analysis.ipynb for the mapping from values to coverage outcomes. |
+| tool\_coverage\_{**ISP**}(\_{**TECH CODE**}) | BAT coverage of the address by {**ISP**} with technology {**TECH CODE**} (if exists). | See analysis.ipynb for the mapping from raw ISP API responses to our taxonomy of coverage outcomes. |
 | tool\_coverage\_downspeed\_{**ISP**}(\_{**TECH CODE**}) | Minimum download speed of the address according to {**ISP**}'s BAT with technology {**TECH CODE**} (if exists). |  |
 | tool\_coverage\_upspeed\_{**ISP**}(\_{**TECH CODE**}) | Minimum upload speed of the address according to {**ISP**}'s BAT with technology {**TECH CODE**} (if exists). |  |
 | fcc\_coverage\_LOCAL | FCC Form 477 coverage of the address by ANY local **ISP** (as defined in paper). |  |
